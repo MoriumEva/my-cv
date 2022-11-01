@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1000px;
+    background-color: lightblue;
+    padding: 20px;
+    line-height: 1.8;
+}
+.image{
+    height: 150px;
+    width: 100px;
+    border: 2px white solid;
+    border-radius: 50%;
+    float: left;
+
+}
+.bio{
+    float: left;
+    padding: 30px;
+}
+.contact{
+   float: right;
+   text-decoration: none;
+}
+.contact a{
+    text-decoration: none;
+    padding: 15px;
+}
+.contact a:hover{
+    color: red;
+}
+h1,h3{
+    color: rgb(2, 106, 141);
+}
+.clear-div{
+    clear: both;
+}
+hr{
+   
+    padding: 0;
+    color: blue;
+    margin-top: 20px;
+}
+.left-div{
+    float: left;
+    width: 30%;
+
+}
+.right-div{
+    float: right;
+    width: 70%;
+    
+}
+.personal-info{
+    padding: 20px;
+    margin-bottom: 20px;
+   
+}
+.middle-div{
+    float: left;
+    width: 30%;
+   
+    
+}
+.end-div{
+    float: left;
+    width: 30%;
+   
+}
+.myself{
+    font-family: fantasy;
+    padding: 20px;
+}
+.education{
+    padding: 20px;
+}
+.skill{
+    padding: 20px;
+}
+.achievement{
+    padding: 20px;
+}
+.hobby{
+    padding: 20px;
+}
+.reference{
+    padding: 20px;
+}
